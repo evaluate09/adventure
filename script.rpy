@@ -4,15 +4,15 @@ define flashbang = Fade(0.2, 0.0, 0.2, color="#fff")
 define damage = Fade(0.2, 0.0, 0.2, color='#ad0011')
 
 #Characters 
-define s = Character(_("???"), color="#ffffff", what_slow_cps=20) 
-define me = Character(_("ME"), color="#c5f4fb", what_slow_cps=20)
-define aw = Character(_("ALISON"), color="#9e62e7", what_slow_cps=20)
-define al = Character(_("ALLY"), color="#FF8674", what_slow_cps=20)
-define j = Character(_("JASON"), color="#76ba68", what_slow_cps=20)
-define ez = Character(_("EDWARD"), color="#e8814d", what_slow_cps=20)
-define em = Character(_("EVE"), color="#ac7241", what_slow_cps=20)
-define l = Character(_("LUCAS"), color="#295cd4", what_slow_cps=20)
-define g = Character(_("GOGI"), color="#c11d1f", what_slow_cps=20)
+define s = Character(_("???"), color="#ffffff") 
+define me = Character(_("ME"), color="#c5f4fb")
+define aw = Character(_("ALISON"), color="#9e62e7")
+define al = Character(_("ALLY"), color="#FF8674")
+define j = Character(_("JASON"), color="#76ba68")
+define ez = Character(_("EDWARD"), color="#e8814d")
+define em = Character(_("EVE"), color="#ac7241")
+define l = Character(_("LUCAS"), color="#295cd4")
+define g = Character(_("GOGI"), color="#c11d1f")
 
 #Background Images
 image bg street evening = "bg/street evening.png"
