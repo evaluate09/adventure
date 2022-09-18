@@ -16,7 +16,7 @@ define g = Character(_("GOGI"), color="#c11d1f", what_slow_cps=20)
 
 #Background Images
 image bg street evening = "bg/street evening.png"
-image bw street evening = "bg/bw/street evening.png"
+image bw street evening = "bg/bw street evening.png"
 image bg black = "bg/black.png"
 
 #Sprites
