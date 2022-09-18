@@ -65,6 +65,8 @@ label start:
     play music "audio/buzz.mp3" fadein 1.0 
 
     "..."
+    
+    # jump dreamworld_intro
 
 # TODO label dreamworld_intro:
 # label questions
