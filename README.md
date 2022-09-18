@@ -6,5 +6,3 @@ So you will notice that there are branches. Different people, different project 
 Once you believe your branch should be the main code, make a pull request and I will merge your branch with the main one.
 
 
-Hello
-
