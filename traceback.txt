@@ -1,0 +1,18 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+NotADirectoryError: [WinError 267] The directory name is invalid: 'C:\\Users\\evemi\\Downloads\\game-20220917T010633Z-001\\game\\options.rpyc'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\evemi\OneDrive\Documents\renpy\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "C:\Users\evemi\OneDrive\Documents\renpy\renpy-8.0.3-sdk\renpy\main.py", line 396, in main
+    for fn in os.listdir(dir):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'C:\\Users\\evemi\\Downloads\\game-20220917T010633Z-001\\game\\options.rpyc'
+
+Windows-10-10.0.22000 AMD64
+Ren'Py 8.0.3.22090809
+ 
+Sat Sep 17 11:09:42 2022
