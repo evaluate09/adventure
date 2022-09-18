@@ -5,22 +5,25 @@
 
 define damage = Fade(0.2, 0.0, 0.2, color='#ad0011')
 
-define me = Character(_("[name]"), color="#fff")
+define me = Character(_("Me"), color="#fff")
+
+define mystery = Character(_("???"), color="#ffffff") #This could be the death screen character
 
 image bg street evening = "bg/street evening.png"
 image bg black = "bg/black.png"
-
 
 
 # The game starts here.
 
 label start:
 
-    python:
-        name = renpy.input("Please enter your name:")
+    scene bg black
+    with fade
 
-    play music "audio/seeyoutomorrow.mp3"
+    play music "audio/begin.mp3" fadein 5.0
+
     scene bg street evening
+    with fade
 
     me "It's so late already..."
 
