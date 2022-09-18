@@ -308,25 +308,25 @@ label starve_ending:
 
     me "She's... gone."
 
-    "{cps=20}Now that I look around more, this place really doesn't seem that great.{/cps}"
+    "Now that I look around more, this place really doesn't seem that great."
 
-    "{cps=20}Everything is a gray husk. Cold. Stale. Empty of life.{/cps}"
+    "Everything is a gray husk. Cold. Stale. Empty of life."
     
-    "{cps=20}Death truly spares nothing, huh?{/cps}"
+    "Death truly spares nothing, huh?"
     
-    "{cps=20}...{/cps}"
+    "..."
 
-    "{cps=20}Is it too late to go find the porcupine again?{/cps}"
+    "Is it too late to go find the porcupine again?"
 
-    "{cps=20}...{/cps}"
+    "..."
 
-    "{cps=20}Ah.. I'm.. tired..{/cps}"
+    "Ah.. I'm.. tired.."
 
-    "{cps=20}I think I'll take a nap here.. under this tree.{/cps}"
+    "I think I'll take a nap here.. under this tree."
 
-    "{cps=20}...{/cps}"
+    "..."
 
-    "{cps=20}.....{/cps}"
+    "....."
 
     scene bg black with fade
 
@@ -346,3 +346,4 @@ label starve_ending:
 
     "{cps=6}BAD END{/cps}"
     return
+
